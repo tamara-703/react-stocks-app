@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: purple;
+    gap: 5px;
+    color: white;
+    padding: 15px;
+    font-size: 2em;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .nav a {
+    color: white;
+    text-decoration: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main-header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-}
+
+  .information-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .headers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 50px;
+  }
+
+  .company-name , .price , .change {
+    border-bottom: 2px solid black;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .red
+  {
+    color: red;
+  }
+
+  .green {
+    color: green;
+  }

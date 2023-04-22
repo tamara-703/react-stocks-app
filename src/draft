@@ -1,0 +1,28 @@
+//API key
+// const apiKey = "d0d61f6f3c3457edc5fa10a0bfce97a0";
+
+//grab stock symbol from the url
+// const param = useParams();
+// const symbol = param.symbol;
+
+// const url = `https://financialmodelingprep.com/api/v3/income-statement/${symbol}?limit=1&apikey=${apiKey}`;
+
+// const getStock = async () => {
+//   try {
+//     const response = await fetch(url);
+//     const data = response.json();
+//     setStock(data);
+//   } catch (e) {
+//     console.error(e);
+//   }
+// };
+
+// const loaded = () => {
+//   return (<div>
+//     <div>{stock}</div>
+//   </div>)
+// }
+
+// const loading = () => {
+//   return (<div>Loading...</div>)
+// }
